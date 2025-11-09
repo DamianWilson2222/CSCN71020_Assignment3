@@ -2,8 +2,29 @@
 
 char* RockPaperScissors(char* p1, char* p2) {
 
+	char valid_input[3][9] = { "Rock", "Scissors", "Paper" };
+	int count_valid = 0;
+
+	for (int i = 0; i < 3; i++) {
+
+		if (valid_input == p1) {
+
+			count_valid++;
+		}
+
+		if (valid_input == p2) {
+
+			count_valid++;
+		}
+	}
+
+	if (count_valid < 2) {
+
+		return "Invalid";
+	}
+
 	//Gives a return of "Draw" if the inputs are the same
-	if (p1 == p2) {
+	else if (p1 == p2) {
 
 		return "Draw";
 	}
@@ -15,15 +36,9 @@ char* RockPaperScissors(char* p1, char* p2) {
 	}
 
 	////Player2 wins if they have the input that beats Player 1's input
-	else if (((p2 == "Rock") && (p1 == "Scissors")) || ((p2 == "Scissors") && (p1 == "Paper")) || ((p2 == "Paper") && (p1 == "Rock"))) {
-
-		return "Player2";
-	}
-
-	//all other inputs will be invalid
 	else {
 
-		return "Invalid";
+		return "Player2";
 	}
 }
 
