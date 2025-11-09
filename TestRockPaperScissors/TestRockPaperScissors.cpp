@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "CppUnitTest.h"
 
+extern "C" char* RockPaperScissors(char* p1, char* p2);
+
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace TestRockPaperScissors
