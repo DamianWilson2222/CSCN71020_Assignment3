@@ -98,5 +98,13 @@ namespace TestRockPaperScissors
 			char* player2_input = "Orange";
 			Assert::AreEqual("Invalid", RockPaperScissors(player1_input, player2_input), "Function Failed");
 		}
+
+		//adding a new test method to catch if both player select an invalid answer
+		TEST_METHOD(RockPaperScissors_Player1InvalidPlayer2Invlaid_ReturnInvalid)
+		{
+			char* player1_input = "Orange";
+			char* player2_input = "Orange";
+			Assert::AreEqual("Invalid", RockPaperScissors(player1_input, player2_input), "Function Failed");
+		}
 	};
 }
