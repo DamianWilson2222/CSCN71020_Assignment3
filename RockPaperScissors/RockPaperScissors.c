@@ -5,7 +5,7 @@ char* RockPaperScissors(char* p1, char* p2) {
 	
 	if (p1 == p2) {
 
-		return "draw";
+		return "Draw";
 	}
 
 	else if (((p1 == "Rock") && (p2 == "Scissors")) || ((p1 == "Scissors") && (p2 == "Paper")) || ((p1 == "Paper") && (p2 == "Rock"))) {
