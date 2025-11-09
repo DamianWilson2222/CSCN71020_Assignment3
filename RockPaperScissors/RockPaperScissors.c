@@ -29,13 +29,13 @@ char* RockPaperScissors(char* p1, char* p2) {
 	}
 
 	//Gives a return of "Draw" if the inputs are the same
-	else if (p1 == p2) {
+	else if (strcmp(p1, p2)==0) {
 
 			return "Draw";
 	}
 
 	//Player1 wins if they have the input that beats Player 2's input
-	else if (((p1 == "Rock") && (p2 == "Scissors")) || ((p1 == "Scissors") && (p2 == "Paper")) || ((p1 == "Paper") && (p2 == "Rock"))) {
+	else if (((strcmp(p1,"Rock")==0) && (strcmp(p2,"Scissors")==0)) || ((strcmp(p1,"Scissors")==0) && (strcmp(p2,"Paper")==0)) || ((strcmp(p1,"Paper")==0) && (strcmp(p2,"Rock")==0))) {
 
 		return "Player1";
 	}
