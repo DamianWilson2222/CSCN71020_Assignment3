@@ -40,7 +40,8 @@ char* RockPaperScissors(char* p1, char* p2) {
 		return "Player1";
 	}
 
-	//Player2 wins if they have the input that beats Player 1's input
+	//Player 2 should win if all other if or else ifs statements fail
+	//Player 2 has the winning input against Player 1's input
 	else {
 
 		return "Player2";
