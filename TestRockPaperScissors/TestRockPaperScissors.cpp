@@ -9,7 +9,47 @@ namespace TestRockPaperScissors
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
+		{
+		}
+
+		TEST_METHOD(RockPaperScissors_Player1RockPlayer2Rock_ReturnDraw)
 		{
 		}
 	};
